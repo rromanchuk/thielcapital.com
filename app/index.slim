@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title Thiel Capital
+    == Slim::Template.new('app/partials/meta.slim').render()
+    == Slim::Template.new('app/partials/ga.slim').render()
+  body
+    .container-fluid
+      .row.vertical-center
+        img.img-responsive src="images/thiel-capital.svg" height="300" width="300"
